@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class AppController {
 
 	// http://localhost:8080/
+	// http://localhost:8080/person?name=Scott+Tiger
+	
 	private static final String template = "Hello, %s!";
 	private final AtomicInteger counter = new AtomicInteger(); //Contador
 	
